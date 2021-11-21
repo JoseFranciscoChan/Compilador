@@ -1,0 +1,7 @@
+JFlex
+
+Bueno se uso la libreria JFlex ya que es una  librería  escrita  en  java  que  permite generar analizadores léxicos.
+
+JFlex  Es  una  reimplementación  de  JLex  con  más funcionalidades  y  mayor  compatibilidad  con  algunos analizadores sintácticos como CUP. 
+
+JFlex/JLex  toma  como  entrada  una  especificación  de analizador léxico (reglas de análisis léxico) y devuelve como salida  el  código  fuente  en Java  implementando  un autómata  finito  que  reconoce  los  lenguajes  regulares, denotados  por  medio  de expresiones  regulares en el archivo de reglas.
