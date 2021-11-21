@@ -1,0 +1,23 @@
+// Programa Java para ilustrar declaraciones anidadas
+class NestedIfDemo
+{
+    public static void main(String args[])
+    {
+        int i = 10;
+ 
+        if (i == 10)
+        {
+            // Primera declaración if
+            if (i < 15)
+                System.out.println("soy menor que 15");
+ 
+            // Declaración if anidada
+            // Solo se ejecutará si la instrucción anterior
+            // es verdad
+            if (i < 12)
+                System.out.println("yo también soy menor que 12");
+            else
+                System.out.println("soy mayor que 15");
+        }
+    }
+}
